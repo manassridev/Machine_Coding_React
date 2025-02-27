@@ -1,0 +1,27 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.input-field {
+  width: 300px;
+}
+.results-container {
+  border: 1px solid black;
+  min-height: 300px;
+  width: 304px;
+  border-top: hidden;
+  display: block;
+}
+.results {
+  display: block;
+  text-align: start;
+  padding: 3px;
+  margin-top: 2px;
+}
+.results:hover {
+  background-color: beige;
+}
